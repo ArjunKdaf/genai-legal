@@ -1,11 +1,117 @@
 <!DOCTYPE html>
-<html>
-<head><title>Genai Legal</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genai News</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 40px 20px;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            background: #22a844;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            font-size: 60px;
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            color: #22a844;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        p {
+            color: #aaa;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+        .topics {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin: 25px 0;
+        }
+        .topic {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #ccc;
+        }
+        .schedule {
+            color: #22a844;
+            font-weight: 600;
+            margin: 25px 0;
+        }
+        .links {
+            margin-top: 30px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .links a {
+            color: #888;
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+        .links a:hover { color: #22a844; }
+        .platforms {
+            margin-top: 30px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
 <body>
-  <h1>Genai Legal</h1>
-  <ul>
-    <li><a href="terms-of-service">Terms of Service</a></li>
-    <li><a href="privacy-policy">Privacy Policy</a></li>
-  </ul>
+    <div class="container">
+        <div class="logo">G</div>
+        <h1>Genai News</h1>
+        <p class="tagline">AI-powered news recaps you can watch</p>
+        <p>Genai News delivers concise, AI-narrated video recaps of the latest headlines. Stay informed across the topics you care about, published as short-form and full-length videos.</p>
+        <div class="topics">
+            <span class="topic">Tech</span>
+            <span class="topic">Football</span>
+            <span class="topic">Formula 1</span>
+            <span class="topic">Sports</span>
+            <span class="topic">Linux</span>
+            <span class="topic">Android</span>
+            <span class="topic">Mac</span>
+            <span class="topic">Gaming</span>
+            <span class="topic">Game Deals</span>
+            <span class="topic">Beauty</span>
+            <span class="topic">Celebrities</span>
+            <span class="topic">Anime</span>
+        </div>
+        <p class="schedule">New videos every Monday and Friday</p>
+        <div class="platforms">Available on YouTube, TikTok, and Instagram</div>
+        <div class="links">
+            <a href="terms-of-service">Terms of Service</a>
+            <a href="privacy-policy">Privacy Policy</a>
+        </div>
+    </div>
 </body>
 </html>
